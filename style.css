@@ -1,0 +1,45 @@
+.main_div{
+    height: 95vh;
+    width: 100%;
+    background-color: hsl(212, 45%, 89%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sub_div{
+    height: 450px;
+    width: 300px;
+    display: flex;
+}
+.content_div{
+    height: 450px;
+    width: 300px;
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 20px;
+}
+.image_div{
+    height: 280px;
+    width: 270px;
+    background-image: url(./images/image-qr-code.png);
+    background-size: cover;
+    background-position: center center;
+    margin-top: 15px;
+    margin-right: 15px;
+    margin-left: 15px;
+    border-radius: 15px;
+}
+.text1_div{
+    color: hsl(218, 44%, 22%);
+    text-align: center;
+    font-size: 15px;
+    font-weight: 700px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.text2_div{
+    color: hsl(220, 15%, 55%);
+    font-weight: 20px;
+    font-size: 11px;
+    text-align: center;
+    font-weight: normal; 
+    word-spacing: 3px;   
+}
